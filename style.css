@@ -1,0 +1,38 @@
+div{
+    height:600px;
+    width:400px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 20px;
+    background: url("bgg.jpeg");
+    background-size: cover;
+}
+#task{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+#add{
+    border-radius: 3px;
+    background-color: aqua;
+}
+.item{
+    /* margin-right: 10px; */
+    font-size: 25px;
+}
+.delete{
+    /* margin-left: 120px; */
+    font-size: 15px;
+    position:absolute;
+    left:250px;
+}
+.delete:hover{
+    background-color:red;
+}
+body{
+    background: url("background.png");
+    background-size: cover;
+}
